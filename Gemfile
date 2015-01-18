@@ -33,9 +33,14 @@ gem 'activeadmin', github: 'activeadmin'
 # Devise is used for authentication of admin users
 gem 'devise'
 
-# Password protection
-#gem "figaro"
+# Turkee is a rails API wrapper for the Amazon Mturk API
+gem 'turkee', :git => 'https://github.com/aantix/turkee.git', branch: 'master'
 
+# Password protection
+gem "figaro"
+
+# Allows for local SSL
+gem 'thin', :group => :development
 
 
 # Use ActiveModel has_secure_password
