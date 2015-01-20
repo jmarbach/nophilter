@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   ActiveAdmin.routes(self)
 
 
-  namespace :turkee  do
+ namespace :turkee  do
     resources :turkee_tasks
   end
 
